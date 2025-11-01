@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "event_id": "97e878dd-841c-48d1-add1-d1f1fc4531ae",
+      "name": "demo concert",
+      "date": "15-11-2025",
+      "location": "3",
+      "seats": [
+        {
+          "seat_id": "A1",
+          "row": "A",
+          "number": 1,
+          "price": 50.0,
+          "is_reserved": true
+        },
+        {
+          "seat_id": "A2",
+          "row": "A",
+          "number": 2,
+          "price": 50.0,
+          "is_reserved": false
+        },
+        {
+          "seat_id": "B1",
+          "row": "B",
+          "number": 1,
+          "price": 40.0,
+          "is_reserved": false
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": "db60d7ff-3285-4320-8f57-22c174d61d04",
+      "name": "Nagham",
+      "email": "naghamshahiem@gmail.com"
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": "3cc6c541-7bb1-4ff8-b060-b280cc8bacf3",
+      "event_id": "97e878dd-841c-48d1-add1-d1f1fc4531ae",
+      "seat_id": "A1",
+      "customer_id": "db60d7ff-3285-4320-8f57-22c174d61d04",
+      "price": 50.0,
+      "created_at": "2025-10-26T04:24:09.088999",
+      "status": "booked"
+    }
+  ]
+}
